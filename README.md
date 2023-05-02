@@ -26,8 +26,8 @@
 
  To merge development branch with main branch (brings changes from two branches into one)
  run commands:
-       new-project % git checkout development 
-       new-project % git merge main 
+       new-project % git checkout main 
+       new-project % git merge development
 
  Yuo can check successfulymerged branches by run:
        new-project % git branch --merged 
